@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_parameters_parameters",
+  "info": {
+    "displayName": "Parameters",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "inches": {
+      "type": "integer"
+    },
+    "color": {
+      "type": "enumeration",
+      "enum": [
+        "black",
+        "silver",
+        "white",
+        "gold"
+      ]
+    }
+  }
+}

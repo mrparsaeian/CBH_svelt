@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_items_in_order_items_in_ordrers",
+  "info": {
+    "displayName": "Items in ordrer"
+  },
+  "options": {},
+  "attributes": {
+    "item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::item.item"
+    },
+    "amount": {
+      "type": "integer"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.content {
+    @apply md:max-w-[1280px] m-auto;
+}
+
+.toCart {
+    @apply hover:bg-gray-400 bg-gray-200 rounded-lg py-4 px-11 font-semibold text-gray-700 mr-2 mb-2;
+}
+.inCart {
+    @apply  bg-green-200 rounded-lg py-4 px-11 font-semibold text-gray-700 mr-2 mb-2;
+}
+
+h1 {
+    @apply text-xl;
+}

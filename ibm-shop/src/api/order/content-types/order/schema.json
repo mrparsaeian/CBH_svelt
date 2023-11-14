@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Orders",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "users_permissions_user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "address": {
+      "type": "string"
+    },
+    "paid": {
+      "type": "boolean"
+    },
+    "delivered": {
+      "type": "boolean"
+    },
+    "recipe": {
+      "type": "decimal"
+    },
+    "itemsInOrder": {
+      "displayName": "Items in ordrer",
+      "type": "component",
+      "repeatable": true,
+      "component": "items-in-order.items-in-ordrer"
+    }
+  }
+}
